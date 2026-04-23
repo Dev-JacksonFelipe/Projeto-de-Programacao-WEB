@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine Spot - Layout 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <!-- Barra superior do site -->
+        <header class="topbar">
+            <div class="brand-area">
+                <div class="logo-slot">CINE SPOT</div>
+
+                <form class="search-box">
+                    <input type="text" placeholder="Procure um filme, gênero ou sessão">
+                    <button type="submit">Buscar</button>
+                </form>
+            </div>
+
+            <nav class="main-menu" aria-label="Menu principal">
+                <a href="#">Em cartaz</a>
+                <a href="#">Trailers</a>
+                <a href="#">Ingressos</a>
+                <a href="#">Promoções</a>
+            </nav>
+
+            <div class="login-area">
+                <a href="#" class="simple-link">Cadastrar</a>
+                <a href="#" class="dark-button">Entrar</a>
+            </div>
+        </header>
+
+        <!-- Menu de gêneros -->
+        <section class="filters-bar">
+            <button class="light-button">Em alta</button>
+
+            <nav class="category-menu" aria-label="Categorias de filmes">
+                <a href="#">Ação</a>
+                <a href="#">Drama</a>
+                <a href="#">Terror</a>
+                <a href="#">Ficção</a>
+                <a href="#">Comédia</a>
+                <a href="#">Romance</a>
+                <a href="#">Animação</a>
+                <a href="#">Suspense</a>
+            </nav>
+
+            <button class="light-button">Filtros</button>
+        </section>
+
+        <!-- Grade principal com cards de filmes -->
+        <main class="gallery-grid">
+            <article class="card card-medium">
+                <div class="card-image">
+                    <img src="assents/michael.jpg" alt="Cartaz do filme Michael">
+                    <div class="poster-overlay">
+                        <span class="movie-tag">MUSICAL</span>
+                        <h2>Michael</h2>
+                        <p>Em cartaz</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <span>Biografia</span>
+                    <span>IMAX</span>
+                </div>
+            </article>
+
+            <article class="card card-medium">
+                <div class="card-image">
+                    <img src="assents/panico-7.webp" alt="Cartaz do filme Pânico 7">
+                    <div class="poster-overlay">
+                        <span class="movie-tag">TERROR</span>
+                        <h2>Pânico 7</h2>
+                        <p>Em cartaz</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <span>Slasher</span>
+                    <span>+18 anos</span>
+                </div>
+            </article>
+
+            <article class="card card-medium">
+                <div class="card-image">
+                    <img src="assents/the-mummy.jpg" alt="Cartaz do filme The Mummy">
+                    <div class="poster-overlay">
+                        <span class="movie-tag">TERROR</span>
+                        <h2>The Mummy</h2>
+                        <p>Sessões noturnas</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <span>Maldição</span>
+                    <span>+16 anos</span>
+                </div>
+            </article>
+
+            <article class="card card-medium">
+                <div class="card-image">
+                    <img src="assents/um-pai-em-apuros.jpg" alt="Cartaz do filme Um Pai em Apuros">
+                    <div class="poster-overlay">
+                        <span class="movie-tag">COMEDIA</span>
+                        <h2>Um Pai em Apuros</h2>
+                        <p>Comédia nacional</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <span>Familia</span>
+                    <span>+12 anos</span>
+                </div>
+            </article>
+
+            <article class="card card-large">
+                <div class="card-image">
+                    <img src="assents/poster-2024.svg" alt="Cartaz local do filme 2024">
+                    <div class="poster-overlay">
+                        <span class="movie-tag">FICCAO</span>
+                        <h2>2024</h2>
+                        <p>Cartaz local</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <span>Suspense</span>
+                    <span>Especial</span>
+                </div>
+            </article>
+
+            <article class="card card-large">
+                <div class="card-image">
+                    <img src="assents/michael.jpg" alt="Cartaz do filme Michael">
+                    <div class="poster-overlay">
+                        <span class="movie-tag">MUSICAL</span>
+                        <h2>Michael</h2>
+                        <p>Sessão VIP</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <span>Tributo</span>
+                    <span>Dublado</span>
+                </div>
+            </article>
+
+            <article class="card card-large">
+                <div class="card-image">
+                    <img src="assents/panico-7.webp" alt="Cartaz do filme Pânico 7">
+                    <div class="poster-overlay">
+                        <span class="movie-tag">TERROR</span>
+                        <h2>Pânico 7</h2>
+                        <p>Últimas sessões</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <span>Legendado</span>
+                    <span>Noite</span>
+                </div>
+            </article>
+
+            <article class="card card-large">
+                <div class="card-image">
+                    <img src="assents/the-mummy.jpg" alt="Cartaz do filme The Mummy">
+                    <div class="poster-overlay">
+                        <span class="movie-tag">TERROR</span>
+                        <h2>The Mummy</h2>
+                        <p>Clássico sombrio</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <span>Escuro</span>
+                    <span>Suspense</span>
+                </div>
+            </article>
+
+            <article class="card card-small">
+                <div class="card-image">
+                    <img src="assents/um-pai-em-apuros.jpg" alt="Cartaz do filme Um Pai em Apuros">
+                    <div class="poster-overlay">
+                        <span class="movie-tag">COMEDIA</span>
+                        <h2>Um Pai em Apuros</h2>
+                        <p>Tarde em família</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <span>Nacional</span>
+                    <span>Popular</span>
+                </div>
+            </article>
+
+            <article class="card card-small">
+                <div class="card-image">
+                    <img src="assents/poster-2024.svg" alt="Cartaz local do filme 2024">
+                    <div class="poster-overlay">
+                        <span class="movie-tag">FICCAO</span>
+                        <h2>2024</h2>
+                        <p>Sci-fi urbano</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <span>Indie</span>
+                    <span>Digital</span>
+                </div>
+            </article>
+
+            <article class="card card-small">
+                <div class="card-image">
+                    <img src="assents/michael.jpg" alt="Cartaz do filme Michael">
+                    <div class="poster-overlay">
+                        <span class="movie-tag">MUSICAL</span>
+                        <h2>Michael</h2>
+                        <p>Grande estreia</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <span>Som VIP</span>
+                    <span>Destaque</span>
+                </div>
+            </article>
+
+            <article class="card card-small">
+                <div class="card-image">
+                    <img src="assents/panico-7.webp" alt="Cartaz do filme Pânico 7">
+                    <div class="poster-overlay">
+                        <span class="movie-tag">TERROR</span>
+                        <h2>Pânico 7</h2>
+                        <p>No cinema hoje</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <span>Ghostface</span>
+                    <span>Noite</span>
+                </div>
+            </article>
+        </main>
+    </div>
+</body>
+</html>
